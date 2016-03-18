@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/wanbok/navermap-ios-api"
-  s.author           = { "Wanbok Choi" => "choi@wanbok.com" }
-  s.source           = { :git => "https://github.com/wanbok/navermap-ios-api", :tag => s.version.to_s }
+  s.homepage         = "https://github.com/naver/navermap-ios-api"
+  s.author           = { "Naver" => "naverdev@naver.com" }
+  s.source           = { :git => "https://github.com/naver/navermap-ios-api", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
