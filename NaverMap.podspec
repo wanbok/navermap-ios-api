@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
     'NaverMap' => ['Resources/*.png']
   }
 
-  s.source_files = 'Lib/**/*.h', 'Classes/NMapViewResource.{h,m}'
-  s.public_header_files = 'Lib/**/*.h', 'Classes/NMapViewResource.h'
+  s.source_files = 'Lib/**/*.h'
+  s.public_header_files = 'Lib/**/*.h'
   s.vendored_libraries = 'Lib/**/*.a'
   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'SystemConfiguration'
   s.library = 'sqlite3', 'xml2'
